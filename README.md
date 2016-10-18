@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3359ec15f4614dc30bba8c3de50a2c8f2aa59de0
@@ -124,3 +125,6 @@ Thank you for downloading and using the PrestaShop open-source e-commerce soluti
 # dev.ua.antoniobiaggi
 >>>>>>> 6e26e9779e23ed1f2dc7d73853ab3cbbbbf84354
 >>>>>>> 3359ec15f4614dc30bba8c3de50a2c8f2aa59de0
+=======
+# dev.ua.antoniobiaggi
+>>>>>>> 00e13cabed7fc65e3f1f3a933d6c2891344a038f
