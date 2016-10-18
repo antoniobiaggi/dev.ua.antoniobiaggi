@@ -1,0 +1,877 @@
+/*----------------------------------------------
+                merge style
+----------------------------------------------*/
+.basket_container * {
+    outline: none;
+    box-sizing: initial;
+}
+.basket_container select {
+    box-sizing: border-box;
+}
+.basket_container input[type="button"],
+.basket_container input[type="submit"],
+.basket_container input[type="reset"],
+.basket_container input[type="file"],
+.basket_container button {
+   box-sizing: border-box;
+}
+.basket_container img{
+    width: auto;
+}
+.basket_container ::-webkit-input-placeholder {
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+
+.basket_container :-moz-placeholder {
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+
+.basket_container ::-moz-placeholder {
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+
+.basket_container :-ms-input-placeholder {
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+.basket_container textarea::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+.basket_container textarea:-moz-placeholder {
+    font-size: 14px;
+}
+
+.basket_container textarea::-moz-placeholder {
+    font-size: 14px;
+}
+
+.basket_container textarea:-ms-input-placeholder {
+    font-size: 14px;
+}
+
+/*----------------------------------------------*/
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, u,
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, caption, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;*/
+    vertical-align: baseline;
+}
+
+b {
+    font-family: 'Roboto-Bold', sans-serif;
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+.center {
+    text-align: center;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    /*content: '';*/
+    content: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.basket_container {
+    margin: 0 auto;
+    max-width: 1170px;
+    /*padding: 0 15px;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.basket_left {
+    width: 820px;
+    float: left;
+    margin-top: 40px;
+}
+
+.basket_left h1 {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.clear {
+    clear: both;
+}
+
+.qty_items {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #999999;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.basket_left table {
+    margin-bottom: 32px;
+}
+
+.basket_left table th:nth-child(1) {
+    width: 120px;
+}
+
+.basket_left table th:nth-child(2) {
+    width: 255px;
+}
+
+.basket_left table th:nth-child(3) {
+    width: 155px;
+}
+
+.basket_left table th:nth-child(4) {
+    width: 155px;
+}
+
+.basket_left table th:nth-child(5) {
+    width: 50px;
+}
+
+.basket_left table th {
+    color: #777777;
+    line-height: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 12px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.basket_left table td:first-child {
+    padding-top: 10px;
+}
+
+.basket_left table td:last-child {
+    text-align: right;
+}
+
+.basket_left table td {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0 10px 0;
+    vertical-align: top;
+    line-height: 1.6;
+    color: #242626;
+    font-size: 14px;
+}
+
+.basket_left table td span {
+    color: #777777;
+}
+
+.qty {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.up_qty {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url('../images/basket/up.png') no-repeat;
+}
+
+.down_qty {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url('../images/basket/down.png') no-repeat;
+}
+
+.delete {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url('../images/basket/delete.png') no-repeat;
+}
+
+.code_in {
+    float: left;
+}
+
+.code_in input[type="text"] {
+    width: 290px;
+    vertical-align: top;
+    padding: 0 15px;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.code_in input[type="submit"] {
+    background: #fff !important;
+    border: 2px solid #000;
+    border-radius: 0;
+    height: 40px;
+    width: 115px;
+
+    color: #000;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.total_price {
+    float: right;
+    width: 150px;
+    color: #242626;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.total_price span {
+    display: block;
+    margin-bottom: 7px;
+    color: #777777;
+    font-size: 12px;
+}
+
+.basket_right {
+    float: right;
+    width: 320px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.basket_form_name {
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.basket_form_desc {
+    margin-top: 14px;
+    margin-bottom: 30px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.basket_form_desc a {
+    color: #333333;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.basket_right input[type="text"] {
+    width: 100%;
+    padding: 0 15px;
+    height: 38px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #e6e6e6;
+    color: #777;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    box-sizing: border-box;
+
+    text-transform: uppercase;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+input[required] + label {
+    color: #999;
+    font-family: Arial;
+    font-size: 14px;
+    /*font-size: .8em;*/
+    position: absolute;
+    z-index: 0;
+    left: 16px;
+    margin-top: -35px;
+    text-transform: uppercase;
+}
+
+input[required] + label:after {
+    content: ' *';
+    color: red;
+}
+
+/* show the placeholder when input has no content (no content = invalid) */
+input[required]:invalid + label {
+    display: inline-block;
+}
+
+/* hide the placeholder when input has some text typed in */
+input[required]:valid + label {
+    display: none;
+}
+
+.basket_right select {
+    width: 317px;
+    padding: 0 11px;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    /*color: #000;*/
+    color: #999999;
+    background: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.s_text {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.basket_right textarea {
+    border: 1px solid #e6e6e6;
+    resize: none;
+    width: 285px;
+    padding: 10px 15px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.basket_radio {
+    list-style: none;
+    padding: 0;
+    line-height: 1.6;
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+}
+
+.basket_radio input[type="radio"] {
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 17px;
+    height: 17px;
+}
+
+.basket_radio input[type="radio"] + label {
+    cursor: pointer;
+    line-height: 23px;
+}
+
+.basket_radio input[type="radio"]:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+.basket_radio input[type="radio"]:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 25px;
+}
+
+.basket_radio input[type="radio"]:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    border: 2px solid #fff;
+    width: 4px;
+    height: 4px;
+    border-radius: 13px;
+    background: #fff;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, .6);
+}
+
+.basket_radio input[type="radio"]:checked + label:before {
+    background: #000;
+    top: 6px;
+}
+
+.basket_radio input[type="radio"]:checked + label {
+    font-weight: bold;
+}
+
+.basket_ckeck {
+    margin: 15px 0 28px 0;
+    font-size: 14px;
+}
+
+.basket_ckeck input {
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 17px;
+    height: 17px;
+}
+
+.basket_ckeck input + label {
+    cursor: pointer;
+}
+
+.basket_ckeck input:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+
+.basket_ckeck input:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 20px;
+}
+
+.basket_ckeck input:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #e6e6e6;
+}
+
+.basket_ckeck input:checked + label:before {
+    background: url('../images/basket/checkbox.png') no-repeat center center;
+}
+
+#ready_order {
+    width: 100%;
+    border: none;
+    background: #000 !important;
+    height: 42px;
+    border-radius: 0;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.basket_footer {
+    margin-top: 70px;
+    border-top: 1px solid #e6e6e6;
+    /*border-bottom: 1px solid #e6e6e6;*/
+    padding: 60px 0;
+    color: #808080;
+}
+
+.basket_footer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.basket_rules {
+    float: left;
+}
+
+.basket_rules_name {
+    color: #3d484c;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.basket_rules ul {
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+    font-size: 12px;
+    color: #808080;
+}
+
+.basket_rules ul li {
+    margin-bottom: 15px;
+    padding: 0 0 0 22px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.basket_rules ul li:before {
+    content: '—';
+    margin-right: 5px;
+    font-size: 14px;
+    color: #e5e5e5;
+    position: absolute;
+    left: 0;
+}
+
+.email_info {
+    float: left;
+    width: 130px;
+    margin-right: 60px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.email_info_name {
+    padding: 0 0 0 28px;
+    margin-bottom: 25px;
+    background: url('../images/basket/email.png') no-repeat left center;
+    color: #3d484c;
+    text-transform: uppercase;
+}
+
+.email_info a {
+    color: #000;
+}
+
+.basket_f_right {
+    float: right;
+}
+
+.chat_info {
+    float: left;
+    width: 145px;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.chat_info_name {
+    padding: 0 0 0 28px;
+    margin-bottom: 25px;
+    background: url('../images/basket/chat.png') no-repeat left center;
+    color: #3d484c;
+    text-transform: uppercase;
+}
+
+.phone_info {
+    float: left;
+    width: 180px;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.phone_info_name {
+    padding: 0 0 0 28px;
+    margin-bottom: 25px;
+    background: url('../images/basket/phone.png') no-repeat left center;
+    color: #3d484c;
+    text-transform: uppercase;
+}
+
+.req_select_city, .req_select_bank {
+    position: relative;
+}
+
+.req_select_city select, .req_select_bank select {
+    color: #999999;
+    position: relative;
+    background: transparent;
+    z-index: 1;
+}
+
+.req_select_city.star:after {
+    left: 52px;
+}
+
+.req_select_bank.star:after {
+    left: 126px;
+}
+
+.req_select_city.star:after, .req_select_bank.star:after {
+    content: '*';
+    color: #f00;
+    position: absolute;
+    top: 12px;
+    font-size: 10px;
+    z-index: 0;
+}
+.contshopping{
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    border: 2px #333333 solid;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 6px;
+
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.bighide{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .basket_container {
+        width: 870px;
+    }
+
+    .basket_left {
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .total_price {
+        width: 180px;
+    }
+
+    .code_in input[type="text"] {
+        width: 330px;
+    }
+
+    .basket_right {
+        width: 100%;
+    }
+
+    .form_left {
+        width: 415px;
+        float: left;
+        position: relative;
+    }
+
+    .form_right {
+        width: 415px;
+        float: right;
+    }
+
+    .basket_right input[type="text"] {
+        /*width: 94%;*/
+        /*padding: 0 3%;*/
+    }
+
+    .basket_right select {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .basket_right textarea {
+        width: 90%;
+        padding: 10px 5%;
+    }
+
+    .basket_radio {
+        margin-top: 0;
+        line-height: 1.7;
+    }
+
+    .user_last_name, .user_name {
+        position: relative;
+    }
+
+    .user_name {
+        float: left;
+        width: 49%;
+    }
+
+    .user_last_name {
+        width: 49%;
+        float: right;
+    }
+
+    .user_last_name input, .user_name input {
+        /*padding: 0 2% 0 7% !important;*/
+        /*width: 91% !important;*/
+    }
+
+    .user_last_name label, .user_name label {
+        left: 15px !important;
+    }
+
+    input[required] + label {
+        left: 14px;
+    }
+
+    .basket_ckeck {
+        margin-top: 20px;
+    }
+
+    .basket_rules {
+        width: 48%;
+    }
+
+    .basket_f_right {
+        width: 48%;
+    }
+
+    .phone_info, .chat_info, .email_info {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .basket_container {
+        width: 708px;
+    }
+
+    .basket_left table th:nth-child(2) {
+        width: 180px;
+    }
+
+    .basket_left table th:nth-child(3) {
+        width: 140px;
+    }
+
+    .basket_left table th:nth-child(4) {
+        width: 140px;
+    }
+
+    .code_in input[type="text"] {
+        width: 260px;
+    }
+
+    .total_price {
+        width: 130px;
+    }
+
+    .basket_right {
+        width: 100%;
+    }
+
+    .form_left, .form_right {
+        width: 100%;
+    }
+
+    #ready_order {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lowhide{
+        display: none;
+    }
+    .bighide{
+        display: initial;
+    }
+    .bighideb{
+        display: block !important;
+    }
+    .basket_container {
+        width: 560px;
+    }
+
+    .basket_left table tr:first-child {
+        display: none;
+    }
+
+    .basket_left table td:nth-child(2) {
+        width: 180px;
+    }
+
+    .basket_left table td:nth-child(3) {
+        width: 80px;
+    }
+
+    .basket_left table td:nth-child(4) {
+        width: 80px;
+    }
+
+    .total_price {
+        width: 90px;
+    }
+
+    .basket_rules {
+        width: 100%;
+    }
+
+    .basket_f_right {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .basket_container {
+        width: auto;
+        max-width: 560px;
+        padding: 0 15px;
+    }
+
+    .code_in {
+        width: 100%;
+        float: none;
+    }
+
+    .code_in input[type="text"] {
+        width: 90%;
+        padding: 0 5%;
+        margin-bottom: 10px;
+    }
+
+    .code_in input[type="submit"] {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    .total_price {
+        width: 55%;
+        margin-top: -45px;
+        text-align: right;
+    }
+
+    .total_price span {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .basket_left table td:nth-child(2),
+    .basket_left table td:nth-child(3),
+    .basket_left table td:nth-child(4),
+    .basket_left table th:nth-child(1),
+    .basket_left table th:nth-child(2),
+    .basket_left table th:nth-child(3),
+    .basket_left table th:nth-child(4),
+    .basket_left table th:nth-child(5) {
+        width: auto;
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/58005.JPG" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#E3E3E3" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="false" showFullScreenToolbar="false" progressLoopColor="#e8e8e8" progressNumColor="#949494" fullScreenBackColor="#FFFFFF" />
+    <control dragSpeed="0.1" maxZoom="200" maxZoomFullScreen="200" fullScreenStretch="100" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" />
+    <rotation firstImage="0" rotate="true" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" />
+  </settings>
+  <hotspots />
+  <images>
+    <image src="images/58005.JPG" />
+    <image src="images/58005 (1).JPG" />
+    <image src="images/58005 (2).JPG" />
+    <image src="images/58005 (3).JPG" />
+    <image src="images/58005 (4).JPG" />
+    <image src="images/58005 (5).JPG" />
+    <image src="images/58005 (6).JPG" />
+    <image src="images/58005 (7).JPG" />
+    <image src="images/58005 (8).JPG" />
+    <image src="images/58005 (9).JPG" />
+    <image src="images/58005 (10).JPG" />
+    <image src="images/58005 (11).JPG" />
+    <image src="images/58005 (12).JPG" />
+    <image src="images/58005 (13).JPG" />
+    <image src="images/58005 (14).JPG" />
+  </images>
+</config>

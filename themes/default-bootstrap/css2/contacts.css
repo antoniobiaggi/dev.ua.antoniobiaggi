@@ -1,0 +1,121 @@
+.catalog-wrap .contDecorM{
+    margin-top: 40px;
+}
+.contFloat{
+    overflow: hidden;
+}
+.blocksWrap .contInfo{
+    float: left;
+    width: 47%;
+}
+.blocksWrap .contInfo .payText{
+    line-height: 18px;
+}
+.blocksWrap .contInfo .contMar{
+    margin-bottom: 0;
+}
+.blocksWrap .contInfo .contMar25{
+    margin-bottom: 25px;
+}
+.blocksWrap .contInfo .contLink{
+    text-decoration: underline;
+}
+.blocksWrap .contInfo .contLink:hover{
+    text-decoration: none;
+}
+#contForm{
+    overflow: hidden;
+    width: 361px;
+    float: left;
+    margin-bottom: 30px;
+}
+#contForm .upper{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 17px;
+}
+#contForm .mb17{
+    margin-bottom: 17px; 
+}
+#contForm input,
+#contTxtarea{
+    text-transform: uppercase;
+    border: 1px solid #dfdfdf;
+    color: #999999;
+    font: 400 12px Roboto;
+    display: block;
+    width: 361px;
+    box-sizing: border-box;
+    padding: 9px 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+#contForm input:-moz-placeholder { 
+    text-align: left;
+}
+#contForm input::-webkit-input-placeholder{
+    text-align: left;
+}
+#contTxtarea:-moz-placeholder { 
+    text-align: left;
+}
+#contTxtarea::-webkit-input-placeholder{
+    text-align: left;
+}
+.contFormBtn{
+    box-sizing: border-box;
+    display: block;
+    width: 129px;
+    float: right;
+    background: #000;
+    color: #ffffff;
+    font: 400 12px Roboto;
+    border: none;
+    outline: none;
+    line-height: 28px;
+}
+.contFormBtn:hover{
+    background: rgba(0, 0, 0, .8);
+}
+
+@media only screen and (max-width: 1240px){
+    #contForm{
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #contForm,
+    #contForm input, 
+    #contTxtarea{
+        width: 310px;
+    }
+    .blocksWrap .contInfo{
+        width: 51%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .blocksWrap .contInfo,
+    #contForm{
+        float: none;
+    }
+    .blocksWrap .contInfo,
+    .blocksWrap .contInfo .payText{
+        width: 100%;
+    }
+    #contForm{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    #contForm,
+    #contForm input,  
+    #contTxtarea{
+        width: 100%;
+    }
+    .catalog-wrap .contDecorM {
+        margin-top: 10px;
+    }
+}

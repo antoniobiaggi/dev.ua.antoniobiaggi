@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>relatedproductpro</name>
+	<displayName><![CDATA[Related Products Pro]]></displayName>
+	<version><![CDATA[2.1.3]]></version>
+	<description><![CDATA[Create and manage your related products.]]></description>
+	<author><![CDATA[App1pro]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall this module?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

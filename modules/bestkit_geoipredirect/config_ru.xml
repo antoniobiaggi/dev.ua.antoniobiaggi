@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bestkit_geoipredirect</name>
+	<displayName><![CDATA[Geo Ip Redirect]]></displayName>
+	<version><![CDATA[1.1.0]]></version>
+	<description><![CDATA[Geo Ip Redirect]]></description>
+	<author><![CDATA[best-kit.com]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

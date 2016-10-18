@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+.idea/
+cache/
+download/
+upload/
+=======
+.idea/*
+cache/
+upload/
+config/
+download/
+>>>>>>> 3359ec15f4614dc30bba8c3de50a2c8f2aa59de0

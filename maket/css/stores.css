@@ -1,0 +1,386 @@
+/* ====================================================
+   Reset STYLES
+======================================================= */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+ol,
+ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    position: relative;
+}
+
+footer {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+h2 {
+    font-weight: normal;
+}
+/****** Эффект для placeholder */
+.field_effect::-webkit-input-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    text-align: left;
+}
+.field_effect::-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    text-align: left;
+}
+.field_effect:-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    text-align: left;
+}
+.field_effect:-ms-input-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    text-align: left;
+}
+/*.field_effect:focus::-webkit-input-placeholder {
+    text-indent: 80px;
+    transition: text-indent 0.3s ease;
+    opacity: 0.3;
+}
+.field_effect:focus::-moz-placeholder {
+    text-indent: 80px;
+    transition: text-indent 0.3s ease;
+    opacity: 0.3;
+}
+.field_effect:focus:-moz-placeholder {
+    text-indent: 80px;
+    transition: text-indent 0.3s ease;
+    opacity: 0.3;
+}
+.field_effect:focus:-ms-input-placeholder {
+    text-indent: 80px;
+    transition: text-indent 0.3s ease;
+    opacity: 0.3;
+}*/
+/****** Colors */
+.clear {
+    clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+
+/****** Fields */
+.Form__field {
+    border: 1px solid #E6E6E6;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: none;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #666;
+}
+.Form__field::-webkit-input-placeholder {
+    color: #333;
+}
+.Form__field::-moz-placeholder {
+    color: #333;
+}
+.Form__field:-moz-placeholder {
+    color: #333;
+}
+.Form__field:-ms-input-placeholder {
+    color: #333;
+}
+
+.mairon_button {
+    border: 2px solid #333;
+    padding: 11px 60px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.25s linear 0s;
+    -moz-transition: all 0.25s linear 0s;
+    -o-transition: all 0.25s linear 0s;
+    transition: all 0.25s linear 0s;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    /*z-index: 9;*/
+    background: none;
+    position: relative;
+}
+.mairon_button span {
+    display: table;
+    margin: 0 auto 0;
+    font-size: 12px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.mairon_button:hover {
+    opacity: 0.5;
+}
+/****** Titles */
+.mairon_Title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* ====================================================
+   END Reset STYLES
+======================================================= */
+
+/* ====================================================
+   Stores
+======================================================= */
+.mairon_Stores {
+    margin-top: 35px;
+}
+.mairon_StoresMap {
+    height: 390px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.mairon_StoresMapModal {
+    width: 245px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 25px 29px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    bottom: 65px;
+    left: 300px;
+    line-height: 22px;
+}
+.mairon_StoresMapModal:before {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 25px;
+    width: 17px;
+    height: 9px;
+    background: url('../images/stores/modal-point.png') no-repeat;
+    display: block;
+}
+/****** location */
+.mairon_Location {
+    margin-top: 20px;
+}
+.mairon_Location .Form__field {
+    float: left;
+    width: 63%;
+    margin-left: 105px;
+}
+.mairon_Location .mairon_button {
+    float: right;
+}
+.mairon_LocationForm__txt {
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+    padding-top: 14px;
+}
+/* ====================================================
+   Stores table
+======================================================= */
+.mairon_StoriesTable {
+    margin-top: 20px;
+    border-top: 1px solid #F2F2F2;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}
+.mairon_StoriesTable tr th {
+    height: 50px;
+    font-size: 12px;
+    color: #777;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.mairon_StoriesTable tr th:first-child {
+    text-align: left;
+}
+.mairon_StoriesTable tr td {
+    height: 90px;
+    border-top: 1px solid #F2F2F2;
+}
+.mairon_StoriesTable tr td div {
+    margin-bottom: 10px;
+}
+.mairon_StoriesTable__name {
+    font-size: 18px;
+    text-align: left;
+}
+.mairon_StoriesTable__slogan {
+    text-transform: uppercase;
+    text-align: left;
+}
+.mairon_StoriesTable__month {
+    color: #BFBFBF;
+    text-transform: uppercase;
+}
+.mairon_StoriesTable__phone {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* ====================================================
+   ADAPTS STYLES
+======================================================= */
+@media (min-width: 1281px) and (max-width: 1380px){
+
+}
+@media handheld, only screen and (min-width: 1240px) {
+    .mairon_Wrapper {
+        margin: 0 auto;
+        /*width: 1240px;*/
+    }
+}
+@media handheld, only screen and (max-width: 1240px) {
+    .mairon_Wrapper {
+        margin: 0 auto;
+        /*max-width: 1240px;*/
+        /*width: 975px;*/
+    }
+    .mairon_Location .Form__field {
+        width: 60%;
+    }
+}
+@media handheld, only screen and (max-width: 992px) {
+    .mairon_Wrapper {
+        margin: 0 auto;
+        /*max-width: 975px;*/
+        /*width: 750px;*/
+    }
+    .mairon_Location .Form__field {
+        margin: 0;
+        width: 55%;
+    }
+    .mairon_Location .mairon_button {
+        margin-left: 20px;
+    }
+    .mairon_LocationForm__txt {
+        margin-right: 50px;
+
+    }
+}
+@media handheld, only screen and (max-width: 768px) {
+    .mairon_Wrapper {
+        margin: 0 auto;
+        /*width: 750px;*/
+        /*width: 610px;*/
+    }
+    .mairon_LocationForm__txt {
+        display: none;
+    }
+    .mairon_Location .Form__field {
+        width: 66%;
+        font-size: 14px;
+    }
+    .mairon_StoriesTable__phone span{
+        display: none;
+    }
+}
+@media handheld, only screen and (max-width: 629px) {
+    .mairon_Wrapper {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .mairon_Location .Form__field {
+        width: 100%;
+        margin: 0;
+    }
+    .mairon_Location .mairon_button {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+    .mairon_StoriesTable__name{
+        font-size: 12px;
+    }
+
+    .field_effect::-webkit-input-placeholder {
+        font-size: 10px;
+        line-height: 2;
+    }
+    .field_effect::-moz-placeholder {
+        font-size: 10px;
+        line-height: 2;
+    }
+    .field_effect:-moz-placeholder {
+        font-size: 10px;
+        line-height: 2;
+    }
+    .field_effect:-ms-input-placeholder {
+        font-size: 10px;
+        line-height: 2;
+    }
+
+}
+
+@media handheld, only screen and (max-width: 320px) {
+    .mairon_Location .Form__field {
+        font-size: 10px;
+    }
+}
+
+/* ====================================================
+   END ADAPTS STYLES
+======================================================= */

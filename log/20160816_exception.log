@@ -1,0 +1,9 @@
+*ERROR* 	2016/08/16 - 12:37:08: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sa.id_product_attribute =' at line 3<br /><br /><pre>SELECT sa.quantity
+                        FROM ps_stock_available sa
+                        WHERE sa.id_product = 8AND sa.id_product_attribute = </pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/08/16 - 12:38:03: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sa.id_product_attribute =' at line 3<br /><br /><pre>SELECT sa.quantity
+                        FROM ps_stock_available sa
+                        WHERE sa.id_product = 8AND sa.id_product_attribute = </pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/08/16 - 12:38:41: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3<br /><br /><pre>SELECT sa.quantity
+                        FROM ps_stock_available sa
+                        WHERE sa.id_product = 8 AND sa.id_product_attribute = </pre> at line 791 in file classes/db/Db.php

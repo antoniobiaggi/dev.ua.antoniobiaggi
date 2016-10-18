@@ -1,0 +1,78 @@
+.gm-style-iw {
+    width: 250px !important;
+    top: 15px !important;
+    left: 60px !important;
+    background-color: #000;
+    /*box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);*/
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 28px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+#iw-container {
+    margin-bottom: 10px;
+}
+#iw-container .iw-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: #48b5e9;
+    color: #ffffff;
+    margin: 0;
+    border-radius: 2px 2px 0 0;
+}
+#iw-container .iw-content {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-right: 1px;
+    padding: 15px 5px 20px 15px;
+    max-height: 140px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.iw-content img {
+    float: right;
+    margin: 0 5px 5px 10px;
+}
+.iw-subTitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.iw-bottom-gradient {
+    position: absolute;
+    width: 326px;
+    height: 25px;
+    bottom: 10px;
+    right: 18px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.gm-style-iw .mairon_StoresMapModal__wrap {
+    margin: 10px 0;
+}
+.gm-style-iw .mairon_StoresMapModal_big {
+    font-size: 18px;
+}
+.gm-style-iw .mairon_StoresMapModal_up {
+    text-transform: uppercase;
+}
+.gm-style-iw .mairon_StoresMapModal_bold {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.gm-style-iw .mairon_StoresMapModal_color {
+    color: #7A7A7A;
+    text-transform: uppercase;
+}

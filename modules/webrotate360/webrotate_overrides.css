@@ -1,0 +1,36 @@
+#image-block
+{
+    margin: 0 0 15px 0;
+}
+
+#image-block .wr360_player img
+{
+    background-color: transparent !important;
+    width: auto;
+}
+
+#image-block, #image-block:before, #image-block:after
+{
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+#header
+{
+    z-index: 16000 !important;
+}
+
+.fancybox-overlay
+{
+    z-index: 59100 !important;
+}
+
+#views_block ul#thumbs_list_frame li a.remove_border_highlight
+{
+    border-color: #FFFFFF;
+}
+
+#views_block ul#thumbs_list_frame li a.remove_border_highlight:hover
+{
+    border-color: #DBDBDB;
+}
